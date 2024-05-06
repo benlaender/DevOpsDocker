@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-	res.send('Hello this bodtlbens Docker Containter, started through Jenkins. :-)');
+	res.send('Hello this is bodtlbens Docker Containter, started through Jenkins. :-)');
 });
 
 app.listen(PORT, HOST);
